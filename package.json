@@ -1,0 +1,86 @@
+{
+<<<<<<< HEAD
+  "name": "groupxe",
+  "displayName": "GroupXE",
+  "description": "Grouping Extensions together",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.78.0"
+=======
+  "name": "group-xez",
+  "displayName": "Group XEZ",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.82.0"
+>>>>>>> 20c2a1e (Start of Testing)
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+<<<<<<< HEAD
+  "main": "./dist/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "groupxe.helloWorld",
+=======
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "group-xez.helloWorld",
+>>>>>>> 20c2a1e (Start of Testing)
+        "title": "Hello World"
+      }
+    ]
+  },
+  "scripts": {
+<<<<<<< HEAD
+    "vscode:prepublish": "npm run package",
+    "compile": "webpack",
+    "watch": "webpack --watch",
+    "package": "webpack --mode production --devtool hidden-source-map",
+    "compile-tests": "tsc -p . --outDir out",
+    "watch-tests": "tsc -p . -w --outDir out",
+    "pretest": "npm run compile-tests && npm run compile && npm run lint",
+=======
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+>>>>>>> 20c2a1e (Start of Testing)
+    "lint": "eslint src --ext ts",
+    "test": "node ./out/test/runTest.js"
+  },
+  "devDependencies": {
+<<<<<<< HEAD
+    "@types/vscode": "^1.78.0",
+    "@types/glob": "^8.1.0",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "16.x",
+    "@typescript-eslint/eslint-plugin": "^5.59.1",
+    "@typescript-eslint/parser": "^5.59.1",
+    "eslint": "^8.39.0",
+    "glob": "^8.1.0",
+    "mocha": "^10.2.0",
+    "typescript": "^5.0.4",
+    "ts-loader": "^9.4.2",
+    "webpack": "^5.81.0",
+    "webpack-cli": "^5.0.2",
+    "@vscode/test-electron": "^2.3.0"
+=======
+    "@types/vscode": "^1.82.0",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "16.x",
+    "@typescript-eslint/eslint-plugin": "^6.4.1",
+    "@typescript-eslint/parser": "^6.4.1",
+    "eslint": "^8.47.0",
+    "glob": "^10.3.3",
+    "mocha": "^10.2.0",
+    "typescript": "^5.1.6",
+    "@vscode/test-electron": "^2.3.4"
+>>>>>>> 20c2a1e (Start of Testing)
+  }
+}

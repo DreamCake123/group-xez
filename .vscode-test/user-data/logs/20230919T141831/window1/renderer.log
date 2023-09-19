@@ -1,0 +1,18 @@
+2023-09-19 14:18:32.812 [info] Started initializing default profile extensions in extensions installation folder. file:///Users/cake/Code%20Projects/group-xez/group-xez/.vscode-test/extensions
+2023-09-19 14:18:32.957 [info] Completed initializing default profile extensions in extensions installation folder. file:///Users/cake/Code%20Projects/group-xez/group-xez/.vscode-test/extensions
+2023-09-19 14:18:32.977 [info] Loading development extension at /Users/cake/Code Projects/group-xez/group-xez
+2023-09-19 14:18:33.188 [warning] [vscode.php]: One or more snippets from the extension 'php' very likely confuse snippet-variables and snippet-placeholders (see https://code.visualstudio.com/docs/editor/userdefinedsnippets#_snippet-syntax for more details)
+2023-09-19 14:18:33.333 [info] [0m%s%s[0m  
+2023-09-19 14:18:33.333 [info] [0m%s%s[0m    Extension Test Suite
+2023-09-19 14:18:33.333 [info]   [32m  ✔[0m[90m %s[0m Sample test
+2023-09-19 14:18:33.334 [info] [92m [0m[32m %d passing[0m[90m (%s)[0m 1 3ms
+2023-09-19 14:18:33.335 [error] Canceled: Canceled
+    at Object.w [as $4] (vscode-file://vscode-app/Users/cake/Code%20Projects/group-xez/group-xez/.vscode-test/vscode-darwin-arm64-1.82.2/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:11:1032)
+    at vscode-file://vscode-app/Users/cake/Code%20Projects/group-xez/group-xez/.vscode-test/vscode-darwin-arm64-1.82.2/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1553:15750
+    at Array.forEach (<anonymous>)
+    at $.dispose (vscode-file://vscode-app/Users/cake/Code%20Projects/group-xez/group-xez/.vscode-test/vscode-darwin-arm64-1.82.2/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1553:15715)
+    at s.dispose (vscode-file://vscode-app/Users/cake/Code%20Projects/group-xez/group-xez/.vscode-test/vscode-darwin-arm64-1.82.2/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1553:27507)
+    at Y.pb (vscode-file://vscode-app/Users/cake/Code%20Projects/group-xez/group-xez/.vscode-test/vscode-darwin-arm64-1.82.2/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:2648:20333)
+    at Y.Nb (vscode-file://vscode-app/Users/cake/Code%20Projects/group-xez/group-xez/.vscode-test/vscode-darwin-arm64-1.82.2/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:2649:12150)
+    at Y.ib (vscode-file://vscode-app/Users/cake/Code%20Projects/group-xez/group-xez/.vscode-test/vscode-darwin-arm64-1.82.2/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:2648:18491)
+    at async Y.gb (vscode-file://vscode-app/Users/cake/Code%20Projects/group-xez/group-xez/.vscode-test/vscode-darwin-arm64-1.82.2/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:2648:17411)

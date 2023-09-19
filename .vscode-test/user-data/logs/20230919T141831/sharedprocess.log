@@ -1,0 +1,3 @@
+2023-09-19 14:18:32.961 [info] Started initializing default profile extensions in extensions installation folder. file:///Users/cake/Code%20Projects/group-xez/group-xez/.vscode-test/extensions
+2023-09-19 14:18:33.011 [warning] Failed to create default profile extensions manifest in extensions installation folder. file:///Users/cake/Code%20Projects/group-xez/group-xez/.vscode-test/extensions Unable to create file 'vscode-userdata:/Users/cake/Code Projects/group-xez/group-xez/.vscode-test/extensions/extensions.json' that already exists when overwrite flag is not set
+2023-09-19 14:18:33.011 [info] Completed initializing default profile extensions in extensions installation folder. file:///Users/cake/Code%20Projects/group-xez/group-xez/.vscode-test/extensions

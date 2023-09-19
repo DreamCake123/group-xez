@@ -1,0 +1,6 @@
+2023-09-19 15:28:40.069 [info] Loading development extension at /Users/cake/Code Projects/group-xez/group-xez
+2023-09-19 15:28:40.236 [warning] [vscode.php]: One or more snippets from the extension 'php' very likely confuse snippet-variables and snippet-placeholders (see https://code.visualstudio.com/docs/editor/userdefinedsnippets#_snippet-syntax for more details)
+2023-09-19 15:28:40.502 [info] [0m%s%s[0m  
+2023-09-19 15:28:40.502 [info] [0m%s%s[0m    Extension Test Suite
+2023-09-19 15:28:40.502 [info]   [32m  ✔[0m[90m %s[0m Sample test
+2023-09-19 15:28:40.503 [info] [92m [0m[32m %d passing[0m[90m (%s)[0m 1 2ms
